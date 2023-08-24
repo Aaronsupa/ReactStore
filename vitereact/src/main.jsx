@@ -21,7 +21,8 @@ const router = createBrowserRouter([
     path: "pages/Contact",
     element: <Contact />,
     errorElement: <ErrorPage />
-  }
+  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

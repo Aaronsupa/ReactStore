@@ -10,13 +10,13 @@ function Aboutus() {
             <div className = "Container" id = "who">
               <div className = "Top">
                 <div>
-                  <Link to = "./Contact" className='Link'><h1>Contact</h1></Link>
+                  <Link to = "../pages/Contact" className='Link'><h1>Contact</h1></Link>
                 </div>
                 <div>
-                  <h1>BuyBuyTech</h1>
+                  <Link to= "/" className='Link'><h1>BuyBuyTech</h1></Link>
                 </div>
                 <div>
-                  <Link to = "./Aboutus" className='Link'><h1>About Us</h1></Link>
+                  <Link to = "../pages/Aboutus" className='Link'><h1>About Us</h1></Link>
                 </div>
                 </div>
                 <div className = "Middle">
